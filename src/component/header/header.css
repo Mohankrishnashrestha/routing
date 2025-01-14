@@ -5,11 +5,14 @@
 .main {
   box-shadow: 5px 3px 10px 5px #888888;
 }
-.heading {
+.main2 {
+  display: none;
+}
+.main .heading {
   background-color: #162171;
   color: white;
 }
-.heading .header {
+.main .heading .header {
   list-style: none;
   display: flex;
   padding: 10px;
@@ -27,7 +30,7 @@
 }
 .title {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.4rem;
 }
 .open a {
   width: 100%;
@@ -51,4 +54,17 @@
   color: #162171;
   align-items: center;
   flex-direction: column;
+  background-color: #faaeae;
+}
+@media (min-width: 550px) {
+  .main {
+    display: none;
+  }
+  .main2 {
+    display: flex;
+  }
+  .main2 .heading {
+    display: flex;
+    gap: 100px;
+  }
 }
