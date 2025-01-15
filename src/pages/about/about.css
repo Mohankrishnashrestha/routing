@@ -1,0 +1,21 @@
+.pageTitle {
+  background-image: url("public/images/bckground_image_about_title.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+}
+.titleOFAbout {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.titleOFAbout .title h1 {
+  font-size: 100px;
+}
+@media (min-width: 800px) {
+  .pageTitle {
+    height: 200px;
+  }
+}

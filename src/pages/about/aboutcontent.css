@@ -1,0 +1,28 @@
+.imageOfAbout {
+  width: 100%;
+}
+.paragraph p {
+  line-height: 30px;
+}
+.aboutUs {
+  color: #00a0e8;
+}
+.paragraphOfAbout .title {
+  color: #162171;
+  font-size: 40px;
+}
+@media (min-width: 800px) {
+  .about_main {
+    display: flex;
+    justify-content: center;
+  }
+  .paragraphOfAbout {
+    width: 35%;
+  }
+  .imageOfAbout {
+    width: 35%;
+  }
+  .paragraph p {
+    font-size: 20px;
+  }
+}

@@ -1,3 +1,4 @@
+import AboutContent from "../about/AboutContent";
 import "./home.css";
 function Home() {
   return (
@@ -19,6 +20,9 @@ function Home() {
         <div className="button">
           <button>Get Start Now</button>
         </div>
+      </div>
+      <div className="about">
+        <AboutContent />
       </div>
     </div>
   );
