@@ -4,6 +4,7 @@
 }
 .main {
   box-shadow: 5px 3px 10px 5px #888888;
+  width: 100%;
 }
 .main2 {
   display: none;
@@ -56,15 +57,54 @@
   flex-direction: column;
   background-color: #faaeae;
 }
-@media (min-width: 550px) {
+@media (min-width: 800px) {
   .main {
     display: none;
   }
   .main2 {
-    display: flex;
+    display: block;
+    width: 100%;
   }
   .main2 .heading {
     display: flex;
-    gap: 100px;
+
+    justify-content: space-evenly;
+    background-color: #162171;
+    color: white;
+    padding: 10px;
+  }
+  .main2 .heading .heading1 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+  .main2 .heading .heading2 .header {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  .main2 .heading .heading1 .number {
+    display: flex;
+    gap: 10px;
+  }
+  .main2 .navigation {
+    display: flex;
+    color: #162171;
+    padding: 30px;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  .main2 .navigation .navicons {
+    display: flex;
+    gap: 50px;
+  }
+
+  .main2 .navigation .navicons a {
+    text-decoration: none;
+    font-weight: 550;
+    font-size: large;
+  }
+  .main2 .navigation .navicons a:hover {
+    color: #00a0e8;
   }
 }

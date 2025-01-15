@@ -4,7 +4,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { FaHeadphonesSimple } from "react-icons/fa6";
+import { FaHeadphones } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
 
 import "./header.css";
 import { useState } from "react";
@@ -31,7 +32,7 @@ function Header() {
           </ul>
         </div>
         <div className="titleAndHamburger">
-          <div className="title">Subha Bihani Digital Media Pvt. Ltd</div>
+          <div className="title">Subha Bihani</div>
           <div className="hamburger" onClick={() => setChange(!change)}>
             <GiHamburgerMenu />
           </div>
@@ -47,12 +48,21 @@ function Header() {
       <div className="main2">
         <div className="heading">
           <div className="heading1">
-            <div>
-              <FaHeadphonesSimple />
+            <div className="number">
+              <div>
+                <FaHeadphones />
+              </div>
+              <div>24 x 7 Technical Support</div>
             </div>
-            <div>24 x 7 Technical Support</div>
+            <div className="number">
+              <div>
+                {" "}
+                <FaPhoneAlt />
+              </div>{" "}
+              <div>01-4435890 </div>
+            </div>
           </div>
-          <div>
+          <div className="heading2">
             <ul className="header">
               <li>
                 <FaFacebookF />
@@ -67,6 +77,17 @@ function Header() {
                 <FaInstagram />
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div className="navigation">
+          <div className="title">Subha Bihani Digital Media Pvt. Ltd</div>
+          <div className="navicons">
+            <NavLink to={"/home"}>Home</NavLink>
+            <NavLink to={"/aboutUs"}>About</NavLink>
+            <NavLink to={"/portfolio"}>Portfolio</NavLink>
+            <NavLink to={"/service"}>Services</NavLink>
+            <NavLink to={"/contactUs"}>Contact</NavLink>
           </div>
         </div>
       </div>

@@ -1,0 +1,43 @@
+.backgroundImage {
+  background-image: url("public/images/subha-bihani-back .png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-top: 5px;
+}
+.start {
+  padding: 70px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.start .paragraph {
+  width: 80%;
+  color: rgb(105, 31, 31);
+}
+.start .name {
+  color: #00a0e8;
+  font-size: large;
+}
+.start .slogan {
+  color: #162171;
+}
+button {
+  height: 2rem;
+  width: 10rem;
+  border: 1px solid #888888;
+  background-color: #00a0e8;
+  color: white;
+}
+button:hover {
+  background-color: transparent;
+  color: black;
+}
+@media (min-width: 800px) {
+  .start {
+    width: 500px;
+    padding: 95px 120px;
+  }
+}
