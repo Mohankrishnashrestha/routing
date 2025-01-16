@@ -6,11 +6,12 @@ function Contact() {
       <div className="contact_main">
         <div className="contact_background">
           <div className="contact_overlay">
-            <div className="contact_title">
-              <h1>Contact</h1>
+            <div>
+              <h1>Contact Us</h1>
             </div>
             <div>
-              <p>Home {">"}Contact</p>
+              {" "}
+              <p>Home {">"} Contact</p>
             </div>
           </div>
         </div>

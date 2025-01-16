@@ -1,5 +1,6 @@
 .contact_main {
   margin-top: 90px;
+  width: 100%;
 }
 .contact_background {
   background-image: url("public/images/bckground_image_about_title.jpg");
@@ -25,6 +26,15 @@
     rgba(5, 103, 183, 0.5) 73%,
     rgba(0, 212, 255, 0.5) 100%
   );
+}
+.contact_overlay h1 {
+  font-size: 40px;
+}
+.contact_overlay p {
+  font-size: 25 px;
+}
+.contactcontent {
+  background-image: url("public/images/services/background_of_services.jpg");
 }
 @media (min-width: 800px) {
   .contact_main {

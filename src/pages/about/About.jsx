@@ -8,7 +8,10 @@ function About() {
           <div className="about_title">
             <h1> About Us</h1>
           </div>
-          <div>Home {">"}About US</div>
+          <div>
+            {" "}
+            <p>Home {">"}About US</p>
+          </div>
         </div>
         <div className="titleOFAbout"></div>
       </div>

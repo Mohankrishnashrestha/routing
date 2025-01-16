@@ -1,7 +1,6 @@
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Header from "./component/header/Header";
-
 import Portfolio from "./pages/portfolio/Portfolio";
 import Services from "./pages/servicess/Services";
 import Contact from "./pages/contact/Contact";

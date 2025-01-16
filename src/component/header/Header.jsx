@@ -56,9 +56,8 @@ function Header() {
             </div>
             <div className="number">
               <div>
-                {" "}
                 <FaPhoneAlt />
-              </div>{" "}
+              </div>
               <div>01-4435890 </div>
             </div>
           </div>
