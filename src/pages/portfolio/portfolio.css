@@ -1,18 +1,22 @@
-.pageTitle {
-  background-image: url("public/images/bckground_image_about_title.jpg");
-  height: 150px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
+.portfolio_main {
   margin-top: 90px;
 }
-.overlay {
-  color: white;
-  text-align: center;
+.portfolio_background {
+  background-image: url("public/images/bckground_image_about_title.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
 
-  width: 100%;
+.portfolio_overlay {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  width: 100%;
   background: rgb(10, 7, 61);
   background: linear-gradient(
     180deg,
@@ -22,12 +26,11 @@
     rgba(0, 212, 255, 0.5) 100%
   );
 }
-.overlay .about_title h1 {
-  font-size: 100px;
-}
 @media (min-width: 800px) {
-  .pageTitle {
-    height: 200px;
+  .portfolio_main {
     margin-top: 130px;
+  }
+  .portfolio_background {
+    height: 200px;
   }
 }

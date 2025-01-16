@@ -4,9 +4,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  margin-top: 5px;
 }
 .start {
+  margin-top: 90px;
   padding: 70px 20px;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,7 @@ button:hover {
 }
 @media (min-width: 800px) {
   .start {
+    margin-top: 135px;
     width: 500px;
     padding: 95px 120px;
   }

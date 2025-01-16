@@ -39,10 +39,10 @@ function Header() {
         </div>
         <div className={change ? "open" : "navicon"}>
           <NavLink to={"/home"}>Home</NavLink>
-          <NavLink to={"/aboutUs"}>About</NavLink>
+          <NavLink to={"/aboutUs"}>About Us</NavLink>
           <NavLink to={"/portfolio"}>Portfolio</NavLink>
           <NavLink to={"/service"}>Services</NavLink>
-          <NavLink to={"/contactUs"}>Contact</NavLink>
+          <NavLink to={"/contactUs"}>Contact Us</NavLink>
         </div>
       </div>
       <div className="main2">
@@ -84,10 +84,10 @@ function Header() {
           <div className="title">Subha Bihani Digital Media Pvt. Ltd</div>
           <div className="navicons">
             <NavLink to={"/home"}>Home</NavLink>
-            <NavLink to={"/aboutUs"}>About</NavLink>
+            <NavLink to={"/aboutUs"}>About Us</NavLink>
             <NavLink to={"/portfolio"}>Portfolio</NavLink>
             <NavLink to={"/service"}>Services</NavLink>
-            <NavLink to={"/contactUs"}>Contact</NavLink>
+            <NavLink to={"/contactUs"}>Contact Us</NavLink>
           </div>
         </div>
       </div>

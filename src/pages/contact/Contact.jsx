@@ -1,5 +1,25 @@
+import "./contact.css";
+import Contactcontent from "./Contactcontent";
 function Contact() {
-  return <div>Contact</div>;
+  return (
+    <>
+      <div className="contact_main">
+        <div className="contact_background">
+          <div className="contact_overlay">
+            <div className="contact_title">
+              <h1>Contact</h1>
+            </div>
+            <div>
+              <p>Home {">"}Contact</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="contactcontent">
+        <Contactcontent />
+      </div>
+    </>
+  );
 }
 
 export default Contact;
