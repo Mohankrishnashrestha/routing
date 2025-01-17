@@ -1,0 +1,15 @@
+.heading_of_content_data {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  font-size: large;
+  padding: 20px;
+}
+.heading_of_content_data li {
+  font-size: 15px;
+  color: #162171;
+}
+.heading_of_content_data li:hover {
+  color: #00a0e8;
+}

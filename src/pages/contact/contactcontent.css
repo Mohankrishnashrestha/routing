@@ -38,19 +38,57 @@
     width: 30%;
   }
 }
+
 .contactcontent_form {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  gap: 30px;
+  background-color: #f6f6f6;
 }
 .contactcontent_form input {
   border: none;
+  padding: 20px;
+  width: 100%;
 }
 .contactcontent_form .form form {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.contactcontent_form .form {
+  padding: 100px;
+}
+
+.contactcontent_form .form .message input {
+  height: 100px;
+}
+
+.contactcontent_form .form .submit input {
+  border: 1px solid grey;
+  background-color: #003bb1;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.officeLocation {
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.officeLocation_heading,
+.officeLocation_location {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (min-width: 800px) {
+  .form_and_location_in_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
 }

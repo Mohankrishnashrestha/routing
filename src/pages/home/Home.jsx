@@ -1,3 +1,4 @@
+import Footer from "../../component/footer/Footer";
 import AboutContent from "../about/AboutContent";
 import "./home.css";
 function Home() {
@@ -23,6 +24,9 @@ function Home() {
       </div>
       <div className="about">
         <AboutContent />
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   );
