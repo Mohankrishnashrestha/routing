@@ -1,0 +1,91 @@
+.mainOfFooter {
+  background-color: #162171;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 20px;
+}
+.mainOfFooter a {
+  color: inherit;
+}
+.mainOfFooter ul {
+  list-style: none;
+}
+.mainOfFooter .footerHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logosOfFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.quickLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.quickLinks ul {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.legal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.legal ul {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.getInTouch {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.getInTouch ul {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.sendEmail {
+  display: flex;
+}
+.sendmessage input {
+  height: 30px;
+  width: 300px;
+  border-radius: 50px;
+  border: none;
+}
+.submit input {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  background-color: #767679;
+  color: white;
+}
+@media (min-width: 800px) {
+  .mainOfFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footerHeading {
+    width: 40%;
+  }
+  .quickLinks {
+    width: 15%;
+  }
+  .legal {
+    width: 15%;
+  }
+  .getInLinks {
+    width: 30%;
+  }
+}

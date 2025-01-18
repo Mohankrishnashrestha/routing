@@ -1,5 +1,6 @@
 import Footer from "../../component/footer/Footer";
 import AboutContent from "../about/AboutContent";
+import Portfoliocontent from "../portfolio/Portfoliocontent";
 import "./home.css";
 function Home() {
   return (
@@ -22,9 +23,11 @@ function Home() {
           <button>Get Start Now</button>
         </div>
       </div>
-      <div className="about">
+      <div>
         <AboutContent />
+        <Portfoliocontent />
       </div>
+
       <div className="footer">
         <Footer />
       </div>

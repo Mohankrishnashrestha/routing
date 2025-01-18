@@ -1,3 +1,4 @@
+import Footer from "../../component/footer/Footer";
 import Servicecontent from "./Servicecontent";
 import "./services.css";
 
@@ -18,6 +19,7 @@ function Services() {
       </div>
       <div className="servicecontent">
         <Servicecontent />
+        <Footer />
       </div>
     </>
   );

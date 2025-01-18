@@ -1,3 +1,4 @@
+import Footer from "../../component/footer/Footer";
 import AboutContent from "./AboutContent";
 import "./about.css";
 function About() {
@@ -17,6 +18,7 @@ function About() {
       </div>
       <div>
         <AboutContent />
+        <Footer />
       </div>
     </div>
   );

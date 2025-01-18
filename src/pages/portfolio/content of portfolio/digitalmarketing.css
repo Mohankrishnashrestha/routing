@@ -13,3 +13,12 @@
   height: 300px;
   box-shadow: 10px 10px 10px #888888;
 }
+
+@media (min-width: 800px) {
+  .digitalmarketing1,
+  .digitalmarketing2 {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+  }
+}
