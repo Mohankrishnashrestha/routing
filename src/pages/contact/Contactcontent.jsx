@@ -3,13 +3,12 @@ import "./contactcontent.css";
 import { CiMobile3 } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
-
+const emailReg = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g;
 function Contactcontent() {
   const [name, setName] = useState("");
   const [error, setError] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  console.log(name, email, message);
   function submit() {
     if (name === "") {
       setError("error is that the name is not filled");
@@ -21,6 +20,10 @@ function Contactcontent() {
     }
     if (message === "") {
       setError("error is that the message is not filled");
+      return;
+    }
+    if (!email.match(emailReg)) {
+      setError("Email validation failed");
       return;
     }
 

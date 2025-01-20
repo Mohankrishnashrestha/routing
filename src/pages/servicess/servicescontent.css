@@ -1,37 +1,54 @@
-a {
-  color: black;
-  text-decoration: none;
-}
-.servicecontent_main {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-image: url("public/images/services/background_of_services.jpg");
-}
-.servicecontent_heading {
-  padding: 50px 5px;
+.main_part_of_service {
   display: flex;
   flex-direction: column;
+  gap: 30px;
   align-items: center;
+  padding: 50px 10px;
+  line-height: 20px;
 }
-.servicecontent_heading .servicecontent_title {
+@media (min-width: 800px) {
+  .main_part_of_service {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.dataOfTheService {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.dataOfTheService:hover {
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.dataOfTheService .service_image {
+  display: flex;
+  justify-content: center;
+}
+.dataOfTheService .service_image img {
+  background-color: #fb9ac8;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.dataOfTheService .data_of_service {
+  display: flex;
+  justify-content: center;
+
   text-align: center;
-  color: #00a0e8;
 }
-.servicecontent_heading .servicecontent_slogan {
-  color: #162171;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
+.main_part_of_service a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
 }
-.servicecontent_content {
+.main_part_of_service .content_of_service {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  text-align: center;
-  padding: 10px;
-}
-.servicecontent_content .socialMediaMarketing {
-  display: flex;
-  flex-direction: column;
 }

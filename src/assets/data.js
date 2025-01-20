@@ -1,0 +1,148 @@
+const data = [
+  {
+    id: 1,
+    image: "public/images/services/social.png",
+    name: "Social Media Marketing",
+    description: "Social media marketing is the promotion of a product",
+  },
+  {
+    id: 2,
+    image: "public/images/services/blogger.png",
+
+    name: "Infuencer Marketing",
+    description:
+      "Influencer Marketing is about choosing the right influencer for",
+  },
+  {
+    id: 3,
+    image: "public/images/services/content.png",
+
+    name: "Content Marketing",
+    description:
+      "hello from In the digital world content is considered as a Marketing",
+  },
+  {
+    id: 4,
+    image: "public/images/services/seo.png",
+    name: "SEO",
+    description: "SEO is the art of using various tools, techniques",
+  },
+  {
+    id: 5,
+    image: "public/images/services/email-marketing-1.png",
+    name: "Email Marketing",
+    description: "Email marketing is a very effective strategy to increase",
+  },
+  {
+    id: 6,
+    image: "public/images/services/digital-marketing.png",
+    name: "Digital Marketing",
+    description: "In this field of digital marketing, we manage",
+  },
+  {
+    id: 7,
+    image: "public/images/services/brand-positioning.png",
+    name: "Branding and Positioning",
+    description: "Branding and positioning are some of the crucial",
+  },
+  {
+    id: 8,
+    image: "public/images/services/web-host.png",
+    name: "Domain Register & Web Hosting",
+    description: " Our web hosting services are affordable and reliable.",
+  },
+];
+export { data };
+// const data = [
+//   {
+//     id: 1,
+//     name: "Asim",
+//     age: 30,
+//     email: "asim@example.com",
+//     phone: "+1234567890",
+//     address: {
+//       street: "123 Main St",
+//       city: "New York",
+//       state: "NY",
+//       postalCode: "10001",
+//       country: "USA",
+//     },
+//     isActive: true,
+//     roles: ["admin", "editor"],
+//     createdAt: "2025-01-19T10:30:00Z",
+//     updatedAt: "2025-01-19T15:45:00Z",
+//   },
+//   {
+//     id: 2,
+//     name: "Ali",
+//     age: 28,
+//     email: "ali@example.com",
+//     phone: "+1234567891",
+//     address: {
+//       street: "456 Elm St",
+//       city: "Los Angeles",
+//       state: "CA",
+//       postalCode: "90001",
+//       country: "USA",
+//     },
+//     isActive: false,
+//     roles: ["viewer"],
+//     createdAt: "2025-01-15T08:00:00Z",
+//     updatedAt: "2025-01-18T14:20:00Z",
+//   },
+//   {
+//     id: 3,
+//     name: "Sara",
+//     age: 25,
+//     email: "sara@example.com",
+//     phone: "+1234567892",
+//     address: {
+//       street: "789 Pine St",
+//       city: "Chicago",
+//       state: "IL",
+//       postalCode: "60601",
+//       country: "USA",
+//     },
+//     isActive: true,
+//     roles: ["editor"],
+//     createdAt: "2025-01-12T09:15:00Z",
+//     updatedAt: "2025-01-17T16:00:00Z",
+//   },
+//   {
+//     id: 4,
+//     name: "John",
+//     age: 35,
+//     email: "john.doe@example.com",
+//     phone: "+1234567893",
+//     address: {
+//       street: "101 Maple St",
+//       city: "Houston",
+//       state: "TX",
+//       postalCode: "77001",
+//       country: "USA",
+//     },
+//     isActive: true,
+//     roles: ["admin"],
+//     createdAt: "2025-01-10T07:00:00Z",
+//     updatedAt: "2025-01-18T18:30:00Z",
+//   },
+//   {
+//     id: 5,
+//     name: "Emily",
+//     age: 27,
+//     email: "emily@example.com",
+//     phone: "+1234567894",
+//     address: {
+//       street: "202 Oak St",
+//       city: "Seattle",
+//       state: "WA",
+//       postalCode: "98101",
+//       country: "USA",
+//     },
+//     isActive: true,
+//     roles: ["editor", "viewer"],
+//     createdAt: "2025-01-05T11:45:00Z",
+//     updatedAt: "2025-01-15T20:00:00Z",
+//   },
+// ];
+// export { data };
