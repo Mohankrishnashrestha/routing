@@ -26,7 +26,7 @@ function Servicecontent() {
         {data.map((item) => (
           <li className="dataOfTheService" key={item.id}>
             <NavLink to={"/service/" + item.id}>
-              <div className="content_of_service">
+              <div className="item">
                 <div className="service_image">
                   <img src={item.image} alt="image" />
                 </div>

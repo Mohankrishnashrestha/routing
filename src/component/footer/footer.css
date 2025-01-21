@@ -1,11 +1,11 @@
 .mainOfFooter {
   background-color: #162171;
   color: white;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   line-height: 20px;
+  width: 100%;
 }
 .mainOfFooter a {
   color: inherit;
