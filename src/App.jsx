@@ -7,6 +7,7 @@ import Contact from "./pages/contact/Contact";
 import { Route, Routes } from "react-router";
 import "./App.css";
 import Desc from "./pages/servicess/Description/Desc";
+import Description from "./pages/about/descriptionOfAbout/Description";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/aboutUs" element={<About />} />
+        <Route path="/aboutUs/:description" element={<Description />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/service" element={<Services />} />
         <Route path="/service/:desc" element={<Desc />} />

@@ -1,6 +1,8 @@
 .description_main {
   width: 100%;
   margin-top: 90px;
+  display: flex;
+  flex-direction: column;
 }
 @media (min-width: 800px) {
   .description_main {
@@ -30,4 +32,36 @@
     rgba(5, 103, 183, 0.5) 73%,
     rgba(0, 212, 255, 0.5) 100%
   );
+}
+.content_of_description {
+  padding-top: 50px 10px;
+  width: 100%;
+}
+.imageOfTheDescription img {
+  width: 100%;
+}
+.defineOfSocialMedia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  align-items: center;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+@media (min-width: 800px) {
+  .content_of_description {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .imageOfTheDescription,
+  .defineOfSocialMedia {
+    width: 50%;
+  }
 }

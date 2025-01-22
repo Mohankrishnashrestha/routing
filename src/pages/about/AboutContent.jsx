@@ -1,4 +1,7 @@
 import "./aboutcontent.css";
+import { news } from "../../assets/news";
+import { NavLink } from "react-router";
+
 function AboutContent() {
   return (
     <div>
@@ -24,6 +27,23 @@ function AboutContent() {
         <div className="imageOfAbout">
           <img src="public/images/aboutimage.svg" alt="no image" />
         </div>
+      </div>
+      <div className="news">
+        <ul className="newsArea">
+          {news.map((item) => (
+            <li className="newsbox" key={item.id}>
+              <NavLink to={"/aboutUs/" + item.id}>
+                <div className="heading">
+                  <h3> {item.heading}</h3>
+                </div>
+                <div className="image">
+                  <img src={item.image} alt="image" />
+                </div>
+                <div className="description">{item.description}</div>
+              </NavLink>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

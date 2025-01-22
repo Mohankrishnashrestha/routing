@@ -1,148 +1,174 @@
 const data = [
   {
     id: 1,
-    image: "public/images/services/social.png",
+    image: "/images/services/social.png",
     name: "Social Media Marketing",
     description: "Social media marketing is the promotion of a product",
+    image2: "/images/services/social-media-mark.png",
+    definaton_1_1:
+      "Social Media Marketing has been a buzzword in the corporate world. It resonates almost at every nook and corner. Except for some innovative marketers, entrepreneurs are oblivious about how to use Social Media professionally",
+    definaton_1_2:
+      "and consistently and achieve the desired results they require.",
+    defination_2_1:
+      "Undeniably, there is a huge potentiality for Social Media Marketing to increase sales since there is an obvious direct correlation between digital media and real trisection. Even researches have proven the efficacy of Social",
+    defination_2_2:
+      "Media Marketing for business. According to Hubspot, 92% of marketers in 2014 claimed that social media marketing was important for their business, with 80% indicating their efforts increased traffic to their websites",
+    defination_2_3:
+      " And according to Social Media Examiner, 97% of marketers are currently participating in social media—but 85% of participants aren't sure what social media tools are the best to use.",
+    question: "How Can Social Media Transform Your Business?",
+    answer_1: " SOCIAL MEDIA PROVIDES YOU VALUABLE CUSTOMER INSIGHTS.",
+    answer_2: " SOCIAL MEDIA MARKETING INCREASES BRAND AWARENESS AND LOYALTY.",
+    answer_3: "TARGETED ADS CAN BE RUN WITH REAL-TIME RESULTS.",
   },
+
   {
     id: 2,
-    image: "public/images/services/blogger.png",
-
+    image: "/images/services/blogger.png",
+    image2: "/images/services/social-media-mark.png",
     name: "Infuencer Marketing",
     description:
       "Influencer Marketing is about choosing the right influencer for",
+    definaton_1_1:
+      "Social Media Marketing has been a buzzword in the corporate world. It resonates almost at every nook and corner. Except for some innovative marketers, entrepreneurs are oblivious about how to use Social Media professionally",
+    definaton_1_2:
+      "and consistently and achieve the desired results they require.",
+    defination_2_1:
+      "Undeniably, there is a huge potentiality for Social Media Marketing to increase sales since there is an obvious direct correlation between digital media and real trisection. Even researches have proven the efficacy of Social",
+    defination_2_2:
+      "Media Marketing for business. According to Hubspot, 92% of marketers in 2014 claimed that social media marketing was important for their business, with 80% indicating their efforts increased traffic to their websites",
+    defination_2_3:
+      " And according to Social Media Examiner, 97% of marketers are currently participating in social media—but 85% of participants aren't sure what social media tools are the best to use.",
+    question: "How Can Social Media Transform Your Business?",
+    answer_1: " SOCIAL MEDIA PROVIDES YOU VALUABLE CUSTOMER INSIGHTS.",
+    answer_2: " SOCIAL MEDIA MARKETING INCREASES BRAND AWARENESS AND LOYALTY.",
+    answer_3: "TARGETED ADS CAN BE RUN WITH REAL-TIME RESULTS.",
   },
   {
     id: 3,
-    image: "public/images/services/content.png",
-
+    image: "/images/services/content.png",
+    image2: "/images/services/social-media-mark.png",
     name: "Content Marketing",
     description:
       "hello from In the digital world content is considered as a Marketing",
+    definaton_1_1:
+      "Social Media Marketing has been a buzzword in the corporate world. It resonates almost at every nook and corner. Except for some innovative marketers, entrepreneurs are oblivious about how to use Social Media professionally",
+    definaton_1_2:
+      "and consistently and achieve the desired results they require.",
+    defination_2_1:
+      "Undeniably, there is a huge potentiality for Social Media Marketing to increase sales since there is an obvious direct correlation between digital media and real trisection. Even researches have proven the efficacy of Social",
+    defination_2_2:
+      "Media Marketing for business. According to Hubspot, 92% of marketers in 2014 claimed that social media marketing was important for their business, with 80% indicating their efforts increased traffic to their websites",
+    defination_2_3:
+      " And according to Social Media Examiner, 97% of marketers are currently participating in social media—but 85% of participants aren't sure what social media tools are the best to use.",
+    question: "How Can Social Media Transform Your Business?",
+    answer_1: " SOCIAL MEDIA PROVIDES YOU VALUABLE CUSTOMER INSIGHTS.",
+    answer_2: " SOCIAL MEDIA MARKETING INCREASES BRAND AWARENESS AND LOYALTY.",
+    answer_3: "TARGETED ADS CAN BE RUN WITH REAL-TIME RESULTS.",
   },
   {
     id: 4,
-    image: "public/images/services/seo.png",
+    image: "/images/services/seo.png",
+    image2: "/images/services/social-media-mark.png",
     name: "SEO",
     description: "SEO is the art of using various tools, techniques",
+    definaton_1_1:
+      "Social Media Marketing has been a buzzword in the corporate world. It resonates almost at every nook and corner. Except for some innovative marketers, entrepreneurs are oblivious about how to use Social Media professionally",
+    definaton_1_2:
+      "and consistently and achieve the desired results they require.",
+    defination_2_1:
+      "Undeniably, there is a huge potentiality for Social Media Marketing to increase sales since there is an obvious direct correlation between digital media and real trisection. Even researches have proven the efficacy of Social",
+    defination_2_2:
+      "Media Marketing for business. According to Hubspot, 92% of marketers in 2014 claimed that social media marketing was important for their business, with 80% indicating their efforts increased traffic to their websites",
+    defination_2_3:
+      " And according to Social Media Examiner, 97% of marketers are currently participating in social media—but 85% of participants aren't sure what social media tools are the best to use.",
+    question: "How Can Social Media Transform Your Business?",
+    answer_1: " SOCIAL MEDIA PROVIDES YOU VALUABLE CUSTOMER INSIGHTS.",
+    answer_2: " SOCIAL MEDIA MARKETING INCREASES BRAND AWARENESS AND LOYALTY.",
+    answer_3: "TARGETED ADS CAN BE RUN WITH REAL-TIME RESULTS.",
   },
   {
     id: 5,
-    image: "public/images/services/email-marketing-1.png",
+    image: "/images/services/email-marketing-1.png",
+    image2: "/images/services/social-media-mark.png",
     name: "Email Marketing",
     description: "Email marketing is a very effective strategy to increase",
+    definaton_1_1:
+      "Social Media Marketing has been a buzzword in the corporate world. It resonates almost at every nook and corner. Except for some innovative marketers, entrepreneurs are oblivious about how to use Social Media professionally",
+    definaton_1_2:
+      "and consistently and achieve the desired results they require.",
+    defination_2_1:
+      "Undeniably, there is a huge potentiality for Social Media Marketing to increase sales since there is an obvious direct correlation between digital media and real trisection. Even researches have proven the efficacy of Social",
+    defination_2_2:
+      "Media Marketing for business. According to Hubspot, 92% of marketers in 2014 claimed that social media marketing was important for their business, with 80% indicating their efforts increased traffic to their websites",
+    defination_2_3:
+      " And according to Social Media Examiner, 97% of marketers are currently participating in social media—but 85% of participants aren't sure what social media tools are the best to use.",
+    question: "How Can Social Media Transform Your Business?",
+    answer_1: " SOCIAL MEDIA PROVIDES YOU VALUABLE CUSTOMER INSIGHTS.",
+    answer_2: " SOCIAL MEDIA MARKETING INCREASES BRAND AWARENESS AND LOYALTY.",
+    answer_3: "TARGETED ADS CAN BE RUN WITH REAL-TIME RESULTS.",
   },
   {
     id: 6,
-    image: "public/images/services/digital-marketing.png",
+    image: "/images/services/digital-marketing.png",
+    image2: "/images/services/social-media-mark.png",
     name: "Digital Marketing",
     description: "In this field of digital marketing, we manage",
+    definaton_1_1:
+      "Social Media Marketing has been a buzzword in the corporate world. It resonates almost at every nook and corner. Except for some innovative marketers, entrepreneurs are oblivious about how to use Social Media professionally",
+    definaton_1_2:
+      "and consistently and achieve the desired results they require.",
+    defination_2_1:
+      "Undeniably, there is a huge potentiality for Social Media Marketing to increase sales since there is an obvious direct correlation between digital media and real trisection. Even researches have proven the efficacy of Social",
+    defination_2_2:
+      "Media Marketing for business. According to Hubspot, 92% of marketers in 2014 claimed that social media marketing was important for their business, with 80% indicating their efforts increased traffic to their websites",
+    defination_2_3:
+      " And according to Social Media Examiner, 97% of marketers are currently participating in social media—but 85% of participants aren't sure what social media tools are the best to use.",
+    question: "How Can Social Media Transform Your Business?",
+    answer_1: " SOCIAL MEDIA PROVIDES YOU VALUABLE CUSTOMER INSIGHTS.",
+    answer_2: " SOCIAL MEDIA MARKETING INCREASES BRAND AWARENESS AND LOYALTY.",
+    answer_3: "TARGETED ADS CAN BE RUN WITH REAL-TIME RESULTS.",
   },
   {
     id: 7,
-    image: "public/images/services/brand-positioning.png",
+    image: "/images/services/brand-positioning.png",
     name: "Branding and Positioning",
+    image2: "/images/services/social-media-mark.png",
     description: "Branding and positioning are some of the crucial",
+    definaton_1_1:
+      "Social Media Marketing has been a buzzword in the corporate world. It resonates almost at every nook and corner. Except for some innovative marketers, entrepreneurs are oblivious about how to use Social Media professionally",
+    definaton_1_2:
+      "and consistently and achieve the desired results they require.",
+    defination_2_1:
+      "Undeniably, there is a huge potentiality for Social Media Marketing to increase sales since there is an obvious direct correlation between digital media and real trisection. Even researches have proven the efficacy of Social",
+    defination_2_2:
+      "Media Marketing for business. According to Hubspot, 92% of marketers in 2014 claimed that social media marketing was important for their business, with 80% indicating their efforts increased traffic to their websites",
+    defination_2_3:
+      " And according to Social Media Examiner, 97% of marketers are currently participating in social media—but 85% of participants aren't sure what social media tools are the best to use.",
+    question: "How Can Social Media Transform Your Business?",
+    answer_1: " SOCIAL MEDIA PROVIDES YOU VALUABLE CUSTOMER INSIGHTS.",
+    answer_2: " SOCIAL MEDIA MARKETING INCREASES BRAND AWARENESS AND LOYALTY.",
+    answer_3: "TARGETED ADS CAN BE RUN WITH REAL-TIME RESULTS.",
   },
   {
     id: 8,
-    image: "public/images/services/web-host.png",
+    image: "/images/services/web-host.png",
+    image2: "/images/services/social-media-mark.png",
     name: "Domain Register & Web Hosting",
     description: " Our web hosting services are affordable and reliable.",
+    definaton_1_1:
+      "Social Media Marketing has been a buzzword in the corporate world. It resonates almost at every nook and corner. Except for some innovative marketers, entrepreneurs are oblivious about how to use Social Media professionally",
+    definaton_1_2:
+      "and consistently and achieve the desired results they require.",
+    defination_2_1:
+      "Undeniably, there is a huge potentiality for Social Media Marketing to increase sales since there is an obvious direct correlation between digital media and real trisection. Even researches have proven the efficacy of Social",
+    defination_2_2:
+      "Media Marketing for business. According to Hubspot, 92% of marketers in 2014 claimed that social media marketing was important for their business, with 80% indicating their efforts increased traffic to their websites",
+    defination_2_3:
+      " And according to Social Media Examiner, 97% of marketers are currently participating in social media—but 85% of participants aren't sure what social media tools are the best to use.",
+    question: "How Can Social Media Transform Your Business?",
+    answer_1: " SOCIAL MEDIA PROVIDES YOU VALUABLE CUSTOMER INSIGHTS.",
+    answer_2: " SOCIAL MEDIA MARKETING INCREASES BRAND AWARENESS AND LOYALTY.",
+    answer_3: "TARGETED ADS CAN BE RUN WITH REAL-TIME RESULTS.",
   },
 ];
 export { data };
-// const data = [
-//   {
-//     id: 1,
-//     name: "Asim",
-//     age: 30,
-//     email: "asim@example.com",
-//     phone: "+1234567890",
-//     address: {
-//       street: "123 Main St",
-//       city: "New York",
-//       state: "NY",
-//       postalCode: "10001",
-//       country: "USA",
-//     },
-//     isActive: true,
-//     roles: ["admin", "editor"],
-//     createdAt: "2025-01-19T10:30:00Z",
-//     updatedAt: "2025-01-19T15:45:00Z",
-//   },
-//   {
-//     id: 2,
-//     name: "Ali",
-//     age: 28,
-//     email: "ali@example.com",
-//     phone: "+1234567891",
-//     address: {
-//       street: "456 Elm St",
-//       city: "Los Angeles",
-//       state: "CA",
-//       postalCode: "90001",
-//       country: "USA",
-//     },
-//     isActive: false,
-//     roles: ["viewer"],
-//     createdAt: "2025-01-15T08:00:00Z",
-//     updatedAt: "2025-01-18T14:20:00Z",
-//   },
-//   {
-//     id: 3,
-//     name: "Sara",
-//     age: 25,
-//     email: "sara@example.com",
-//     phone: "+1234567892",
-//     address: {
-//       street: "789 Pine St",
-//       city: "Chicago",
-//       state: "IL",
-//       postalCode: "60601",
-//       country: "USA",
-//     },
-//     isActive: true,
-//     roles: ["editor"],
-//     createdAt: "2025-01-12T09:15:00Z",
-//     updatedAt: "2025-01-17T16:00:00Z",
-//   },
-//   {
-//     id: 4,
-//     name: "John",
-//     age: 35,
-//     email: "john.doe@example.com",
-//     phone: "+1234567893",
-//     address: {
-//       street: "101 Maple St",
-//       city: "Houston",
-//       state: "TX",
-//       postalCode: "77001",
-//       country: "USA",
-//     },
-//     isActive: true,
-//     roles: ["admin"],
-//     createdAt: "2025-01-10T07:00:00Z",
-//     updatedAt: "2025-01-18T18:30:00Z",
-//   },
-//   {
-//     id: 5,
-//     name: "Emily",
-//     age: 27,
-//     email: "emily@example.com",
-//     phone: "+1234567894",
-//     address: {
-//       street: "202 Oak St",
-//       city: "Seattle",
-//       state: "WA",
-//       postalCode: "98101",
-//       country: "USA",
-//     },
-//     isActive: true,
-//     roles: ["editor", "viewer"],
-//     createdAt: "2025-01-05T11:45:00Z",
-//     updatedAt: "2025-01-15T20:00:00Z",
-//   },
-// ];
-// export { data };
