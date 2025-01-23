@@ -41,4 +41,7 @@ button:hover {
     width: 500px;
     padding: 95px 120px;
   }
+  .backgroundImage {
+    height: 500px;
+  }
 }

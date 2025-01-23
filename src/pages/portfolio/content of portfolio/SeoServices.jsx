@@ -1,11 +1,14 @@
-import "./seomarketing.css";
+import { image3 } from "../../../assets/image_of_DM";
+
 function SeoServices() {
   return (
     <>
-      <div className="imageOfSeoServices">
-        <img src="public/images/portfolio/2.jpg" alt="no image" />
-        <img src="public/images/portfolio/5.jpg" alt="no image" />
-        <img src="public/images/portfolio/6.jpg" alt="no image" />
+      <div className="image_main">
+        {image3.map((item, index) => (
+          <div key={index} className="image_sub_main">
+            <img src={item.img} alt="image" />
+          </div>
+        ))}
       </div>
     </>
   );

@@ -1,3 +1,6 @@
+.helloiamcristinoronaldo {
+  background-color: #cff0ff;
+}
 .imageOfAbout img {
   width: 100%;
 }
@@ -27,19 +30,22 @@
   }
 }
 .newsArea {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   flex-direction: column;
   justify-content: center;
   line-height: 20px;
   padding: 20px;
   gap: 20px;
+  list-style: none;
 }
 .news .newsbox a {
-  border: 1px solid black;
+  border-radius: 20px;
   padding: 20px;
   transition: box-sizing 1s ease;
   display: flex;
   flex-direction: column;
+  background-color: white;
   gap: 20px;
 }
 .news .newsbox a:hover {
@@ -57,4 +63,10 @@
 .newsbox a {
   text-decoration: none;
   color: black;
+}
+@media (min-width: 900px) {
+  .newsArea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

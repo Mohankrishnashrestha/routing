@@ -1,16 +1,14 @@
-import "./contentmarketing.css";
+import { image2 } from "../../../assets/image_of_DM";
+
 function ContentMarketing() {
   return (
     <>
-      <div className="imageOfContentMarketing">
-        <div className="contentmarketing1">
-          <img src="public/images/portfolio/2.jpg" alt="no image" />
-          <img src="public/images/portfolio/3.jpg" alt="no image" />
-          <img src="public/images/portfolio/5.jpg" alt="no image" />
-        </div>
-        <div className="contentmarketing2">
-          <img src="public/images/portfolio/6.jpg" alt="no image" />
-        </div>
+      <div className="image_main">
+        {image2.map((item, index) => (
+          <div key={index} className="image_sub_main">
+            <img src={item.img} alt="image" />
+          </div>
+        ))}
       </div>
     </>
   );

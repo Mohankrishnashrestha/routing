@@ -25,7 +25,7 @@ function Footer() {
     <>
       <div className="mainOfFooter">
         <div className="footerHeading">
-          <div>
+          <div className="heading">
             <h3>Subha Bihani Digital Media Pvt. Ltd</h3>
           </div>
           <div>
@@ -54,7 +54,7 @@ function Footer() {
           </div>
         </div>
         <div className="quickLinks">
-          <div>
+          <div className="heading">
             <h3>Quick Links</h3>
           </div>
           <div>
@@ -74,6 +74,7 @@ function Footer() {
             </ul>
           </div>
         </div>
+
         <div className="legal">
           <div>
             <h3>Legal</h3>
@@ -101,15 +102,22 @@ function Footer() {
           </div>
           <ul>
             <li>
-              <CiLocationOn /> Mid-baneshwor, Kathmandu
+              <div>
+                <CiLocationOn />
+              </div>
+              <div>Mid-baneshwor, Kathmandu</div>
             </li>
             <li>
-              <MdEmail />
-              info@subhabihani.com.np
+              <div>
+                <MdEmail />
+              </div>
+              <div>info@subhabihani.com.np</div>
             </li>
             <li>
-              <FaPhoneAlt />
-              01-4435890
+              <div>
+                <FaPhoneAlt />
+              </div>
+              <div>01-4435890</div>
             </li>
           </ul>
           <div>
@@ -123,7 +131,6 @@ function Footer() {
                   }}
                   value={email}
                   type="text"
-                  placeholder="hello"
                 />
               </div>
               <div className="submit">

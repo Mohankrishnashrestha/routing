@@ -1,91 +1,112 @@
 .mainOfFooter {
+  border: 1px solid black;
+  padding: 10px;
   background-color: #162171;
   color: white;
   display: flex;
   flex-direction: column;
   gap: 20px;
   line-height: 20px;
-  width: 100%;
-}
-.mainOfFooter a {
-  color: inherit;
-}
-.mainOfFooter ul {
-  list-style: none;
 }
 .mainOfFooter .footerHeading {
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
-.logosOfFooter {
+
+.footerHeading .logosOfFooter {
   display: flex;
-  flex-direction: row;
+  list-style: none;
   gap: 20px;
 }
 .quickLinks {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  padding: 10px;
 }
 .quickLinks ul {
+  padding-top: 5px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.quickLinks ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.mainOfFooter .legal {
+  padding: 10px;
+}
+.mainOfFooter .legal div ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 5px;
+}
+.mainOfFooter .legal div ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.mainOfFooter .getInTouch {
+  padding: 10px;
+}
+.mainOfFooter .getInTouch ul {
+  padding-top: 5px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.mainOfFooter .getInTouch ul li {
+  padding: 5px 10px;
   display: flex;
   gap: 10px;
-  flex-direction: column;
-}
-.legal {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.legal ul {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-.getInTouch {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.getInTouch ul {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
 }
 .sendEmail {
+  padding: 10px;
   display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
-.sendmessage input {
-  height: 30px;
-  width: 300px;
-  border-radius: 50px;
+.sendEmail .sendmessage input {
+  width: 15rem;
+  height: 2rem;
   border: none;
+  border-radius: 15px;
 }
-.submit input {
-  height: 30px;
-  width: 100px;
+.sendEmail .submit input {
+  width: 5rem;
+  height: 2rem;
   border: none;
-  border-radius: 50px;
-  background-color: #767679;
-  color: white;
+  background-color: white;
+  border-radius: 15px;
 }
 @media (min-width: 800px) {
   .mainOfFooter {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
   }
-  .footerHeading {
-    width: 40%;
+  .mainOfFooter .footerHeading {
+    width: 35%;
   }
-  .quickLinks {
+  .mainOfFooter .quickLinks {
     width: 15%;
   }
-  .legal {
+  .mainOfFooter .legal {
     width: 15%;
   }
-  .getInLinks {
-    width: 30%;
+  .mainOfFooter .gitInTouch {
+    width: 35%;
+  }
+  .getInTouch .sendEmail {
+    display: flex;
+    justify-content: left;
   }
 }

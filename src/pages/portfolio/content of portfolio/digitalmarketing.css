@@ -1,24 +1,34 @@
-.imagesOfDigitalMarketing {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  padding: 20px;
+.image_main {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
 }
-.imagesOfDigitalMarketing img {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 300px;
-  box-shadow: 10px 10px 10px #888888;
+.image_main .image_sub_main img {
+  width: 100%;
+  height: 100%;
+  transition: box-shadow 0.5s ease;
+  border-radius: 20px;
+}
+.image_main .image_sub_main img:hover {
+  box-shadow: 5px 5px 10px #881616;
 }
 
-@media (min-width: 800px) {
-  .digitalmarketing1,
-  .digitalmarketing2 {
-    display: flex;
-    gap: 30px;
-    padding: 20px;
+@media (min-width: 768px) {
+  .image_main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1000px) {
+  .image_main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1500px) {
+  .image_main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
