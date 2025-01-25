@@ -1,8 +1,10 @@
 .portfoliocontent_main {
   display: flex;
+  padding: 10px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #e5f6fe;
 }
 .previousProject {
   font-size: 15px;

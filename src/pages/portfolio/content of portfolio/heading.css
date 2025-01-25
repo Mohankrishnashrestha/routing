@@ -12,4 +12,5 @@
 }
 .heading_of_content_data li:hover {
   color: #00a0e8;
+  font-weight: bold;
 }

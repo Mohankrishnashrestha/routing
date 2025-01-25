@@ -15,6 +15,7 @@
 
 .dataOfTheService {
   height: 300px;
+  border-radius: 20px;
   width: 100%;
   display: flex;
   align-items: center;
