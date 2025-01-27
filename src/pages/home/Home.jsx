@@ -1,5 +1,6 @@
 import Footer from "../../component/footer/Footer";
 import AboutContent from "../about/AboutContent";
+import Practice from "../mentos/Practice";
 import Portfoliocontent from "../portfolio/Portfoliocontent";
 import Servicecontent from "../servicess/Servicecontent";
 import "./home.css";
@@ -28,6 +29,7 @@ function Home() {
         <AboutContent />
         <Portfoliocontent />
         <Servicecontent />
+        <Practice />
       </div>
 
       <div className="footer">

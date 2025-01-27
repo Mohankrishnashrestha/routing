@@ -33,7 +33,7 @@ function Footer() {
               Subha Bihani Digital Media PVT. LTD is a results-driven digital
               marketing agency in Nepal focused on connecting brands to people.
               We are a one-stop solution provider for all your Digital Marketing
-              requirements.
+              requirements.it is one of the best digital media to hand over
             </p>
           </div>
           <div>
@@ -112,6 +112,7 @@ function Footer() {
                 <MdEmail />
               </div>
               <div>info@subhabihani.com.np</div>
+              <div>info@subhabihani123.com.np</div>
             </li>
             <li>
               <div>
